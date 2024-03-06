@@ -30,7 +30,7 @@ const doctorSchema = mongoose.Schema({
         default: 0
     },
     worksInHospitals: {
-        type: [hospitalHoursSchema]
+        type: [hospitalHoursSchema] 
     }
     
 }, {timestamps: true});
